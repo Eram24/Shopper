@@ -8,5 +8,6 @@ backend/node_modules/
 
 #enviroment variable
 backend/.env 
+frontend/client/.env
 
 .DS_Store
