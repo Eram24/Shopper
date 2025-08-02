@@ -1,5 +1,8 @@
 // product.js:
-const base_url = "http://localhost:9000/images/";
+// const base_url = "http://localhost:9000/images/";
+
+const base_url = "https://raw.githubusercontent.com/Eram24/Shopper/main/backend/data/image/";
+
 const products = [
   {
     name: "Classic Oxford Button-Down Shirt",
