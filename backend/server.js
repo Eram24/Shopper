@@ -30,6 +30,7 @@ connectDB();
 
 app.use(express.json());
 
+
 app.get("/",(req,res)=>{
     res.send("Welcome to shopper API");
 });

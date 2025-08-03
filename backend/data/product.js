@@ -1,7 +1,11 @@
 // product.js:
-const base_url = "http://localhost:9000/images/";
+// const base_url = "http://localhost:9000/images/";
 
 // const base_url = "https://raw.githubusercontent.com/Eram24/Shopper/blob/main/backend/data/images/";
+
+// const base_url = "/images/";
+
+const base_url = process.env.BASE_IMAGE_URL || "http://localhost:9000/images/";
 
 const products = [
   {
