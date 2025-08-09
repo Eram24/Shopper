@@ -1,5 +1,5 @@
 // product.js:
-const base_url = "http://localhost:9000/images/";
+// const base_url = "http://localhost:9000/images/";
 
 // const base_url = "https://raw.githubusercontent.com/Eram24/Shopper/blob/main/backend/data/images/";
 
@@ -754,7 +754,7 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: `${base_url}30.jpg`,
+        url: `https://res.cloudinary.com/dtddquymz/image/upload/v1754723652/30_aqytrr.jpg`,
         altText: "Classic Pleated Trousers Front View",
       },
       {
