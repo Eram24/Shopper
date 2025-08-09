@@ -30,7 +30,7 @@ const products = [
         altText: "Classic Oxford Button-Down Shirt Front View",
       },
       {
-        url: `${base_url}1_1.jpg`,
+        url: `https://res.cloudinary.com/dtddquymz/image/upload/v1754719596/tjquiwbqhxnpv2koep0s.jpg`,
         altText: "Classic Oxford Button-Down Shirt Back View",
       },
     ],

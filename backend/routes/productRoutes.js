@@ -95,7 +95,7 @@ router.put("/:id", protect, admin, async (req, res) =>{
 
     // find product by ID
     const product = await Product.findById(req.params.id);
-    console.log(product);
+    // console.log(product);
 
     if(product){
         // Update product fields
