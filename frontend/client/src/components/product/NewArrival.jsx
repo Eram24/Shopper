@@ -120,6 +120,8 @@ const NewArrival = () => {
      </div>
 
      {/* scrollable content */}
+
+     {/* <img src="https://res.cloudinary.com/dtddquymz/image/upload/v1754719596/tjquiwbqhxnpv2koep0s.jpg"></img> */}
      
      <div ref={scrollRef} 
      className={` container mx-auto overflow-x-scroll flex space-x-6 lg:space-x-8 relative ${isDragging ? "cursor-pointer" : "cursor-grab"}`}

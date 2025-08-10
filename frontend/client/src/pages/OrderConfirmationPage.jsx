@@ -31,7 +31,7 @@ const OrderConfirmationPage = () => {
 
         {checkout && (
             <div className="p-6 rounded-lg border border-gray-400 shadow-xl">
-                <div className="flex justify-between mb-20">
+                <div className="flex flex-col md:flex-row justify-between mb-20">
 
                     {/* Order Id and Date */}
                     <div>
@@ -44,7 +44,7 @@ const OrderConfirmationPage = () => {
                     </div>
 
                     <div>
-                        <p className="text-emerald-700 text-sm">Estimated Delivery:{estimatedDeliveryTime(checkout.createdAt)}</p>
+                        <p className="text-emerald-700 text-sm mt-2 md:mt-0">Estimated Delivery:{estimatedDeliveryTime(checkout.createdAt)}</p>
                     </div>
                 </div>
                 {/* ordered images */}
